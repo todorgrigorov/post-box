@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Post Box</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="search">Search</string>
+    <string name="signup_with_microsoft">Sign up with Microsoft</string>
+    <string name="copyright">© Todor Grigorov 2017</string>
+    <string name="inbox">Inbox</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="mail_deleted">Mail deleted.</string>
+    <string name="mail_sent">Mail sent.</string>
+    <string name="recipient_required">Recipient is required.</string>
+    <string name="recipient_invalid">Recipient is an invalid email.</string>
+    <string name="subject_required">Subject is required.</string>
+    <string name="message_required">Message is required.</string>
+    <string name="inbox_empty">Inbox is empty.</string>
+</resources>

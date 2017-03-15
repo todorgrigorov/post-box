@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tgrigorov.postbox">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".PostBox"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.activities.LoginActivity" />
+        <activity android:name="com.microsoft.aad.adal.AuthenticationActivity" />
+        <activity
+            android:name=".ui.activities.InboxActivity"
+            android:label="@string/inbox" />
+        <activity
+            android:name=".ui.activities.MailDetailActivity"
+            android:label="" />
+        <activity
+            android:name=".ui.activities.MailEditActivity"
+            android:label="" />
+    </application>
+
+</manifest>
